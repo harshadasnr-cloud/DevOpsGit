@@ -1,7 +1,8 @@
 public class Hello {
     public static void main(String args[]){
-        int a=4;
-        int b=5;
+        int a=Integer.parseInt(args[0]);
+        int b=Integer.parseInt(args[1]);
         System.out.println("The sum of Var is ="+(a+b));
     }
 }
+
